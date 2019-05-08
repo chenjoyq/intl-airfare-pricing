@@ -8,4 +8,4 @@ Conducting analysis on webscraped data from Norwegian Air Shuttle for various fl
 Python: Requests and BeautifulSoup
 
 ### Acknowledgements
-All data collected is in adherence with Norwegian Air Shuttle Terms of Use for personal, academic purposes only
+All data collected is in adherence to Norwegian Air Shuttle Terms of Use and intended for personal, academic purposes only
