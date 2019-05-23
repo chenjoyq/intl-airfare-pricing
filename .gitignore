@@ -1,0 +1,11 @@
+.Rproj.user
+.Rproj
+.Rhistory
+.RData
+.Ruserdata
+.cache
+.config
+.ipynb_checkpoints
+.ipython
+.jupyter
+.local
