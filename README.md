@@ -1,4 +1,4 @@
-# International Airfare Pricing
+# International Airfare Price Predictions
 Repository for Stat 418 final project
 
 ### Description
