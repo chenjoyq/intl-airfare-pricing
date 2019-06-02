@@ -1,25 +1,25 @@
 ## International Airfare Price Predictions
 Repository for Stat 418 final project
 
-### Description
+#### DESCRIPTION
 Conducting analysis on webscraped data from Norwegian Air Shuttle for various flight itineraries from the US to Europe. Building prediction model to assist with purchasing decisions. Model to be hosted on Amazon EC2 and accessible via Flask API application
 
-### Data Collection
+#### DATA COLLECTION
 Webscrape using Python Requests and BeautifulSoup
 
-### Acknowledgements
+#### ACKNOWLEDGEMENTS
 All data collected is in adherence to Norwegian Air Shuttle Terms of Use and intended for personal, academic purposes only
 
 </br>
 
 ***
 
-## EC2 Hosting
+</br>
+### EC2 Hosting
 The predictive model is hosted on Amazon's EC2 and accessible via a Flask API (instructions below)
 
 </br>
-
-## Reproducing / Accessing Flask API
+### Reproducing / Accessing Flask API
 Please follow the steps below to execute the API:
 
 + Download the files in this repository
