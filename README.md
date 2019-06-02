@@ -15,11 +15,13 @@ All data collected is in adherence to Norwegian Air Shuttle Terms of Use and int
 ***
 
 </br>
-### EC2 Hosting
+
+## EC2 Hosting
 The predictive model is hosted on Amazon's EC2 and accessible via a Flask API (instructions below)
 
 </br>
-### Reproducing / Accessing Flask API
+
+## Reproducing / Accessing Flask API
 Please follow the steps below to execute the API:
 
 + Download the files in this repository
