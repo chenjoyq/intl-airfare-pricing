@@ -4,6 +4,11 @@ Repository for Stat 418 final project
 #### DESCRIPTION
 Conducting analysis on webscraped data from Norwegian Air Shuttle for various flight itineraries from the US to Europe. Building prediction model to assist with purchasing decisions. Model to be hosted on Amazon EC2 and accessible via Flask API application
 
+**Airports of Origin and Destination:**  
+US (ORIG): `LAX` Los Angeles | `OAK` Oakland | `JFK` New York City  
+EU (DEST): `CPH` Copenhagen | `ARN` Stockholm | `LGW` London-Gatwick | `BCN` Barcelona
+
+
 #### DATA COLLECTION
 Webscrape using Python Requests and BeautifulSoup
 
