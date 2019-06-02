@@ -1,4 +1,4 @@
-# International Airfare Pricing and Opportunities for Foreign Exchange Arbitrage
+# International Airfare Pricing
 Repository for Stat 418 final project
 
 ### Description
