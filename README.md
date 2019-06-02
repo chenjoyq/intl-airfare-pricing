@@ -20,10 +20,14 @@ All data collected is in adherence to Norwegian Air Shuttle Terms of Use and int
 
 </br>
 
+## Predictive Linear Model Design
+Outcome Variable:      `prices_lowfare_usd`  
+Predictive Variables:  
+
+
 ## EC2 Hosting
 The predictive model is hosted on Amazon's EC2 and accessible via a Flask API (instructions below)
 
-</br>
 
 ## Accessing Flask API
 Please follow the steps below to execute the API:
