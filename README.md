@@ -1,8 +1,8 @@
-# International Airfare Pricing and Opportunities for Foreign Exchange Arbitrage
+# International Airfare Price Predictions
 Repository for Stat 418 final project
 
 ### Description
-Conducting analysis on webscraped data from Norwegian Air Shuttle for various flight itineraries from the US to Europe. Building prediction model to assist with purchasing decisions and determine which currencies can facilitate opportunities for foreign exchange pricing arbitrage
+Conducting analysis on webscraped data from Norwegian Air Shuttle for various flight itineraries from the US to Europe. Building prediction model to assist with purchasing decisions. Model to be hosted on Amazon EC2 and accessible via Flask API application
 
 ### Data Collection
 Webscrape using Python Requests and BeautifulSoup
