@@ -37,7 +37,7 @@ Please follow the steps below to execute the API:
 
 + In your terminal, navigate to the **docker** folder directory and run `docker-compose up` to create your local server
 
-+ If created successfully, you should see output lines with `flask_1 | ....` outputs but will *not* be receiving a prompt back
++ If created successfully, you should see output lines with `flask_1 | ....` outputs but will *not* be returning a prompt
 
 + Open up a new terminal and navigate to the same **docker** directory
 
@@ -45,4 +45,4 @@ Please follow the steps below to execute the API:
 `curl https://localserver:5000/`  
 The response should say: Server is up!
 
-+ Follow the steps above for *Accessing Flask API*
++ To then access model predictions, follow the steps above for *Accessing Flask API*
