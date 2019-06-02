@@ -29,8 +29,10 @@ Please follow the steps below to execute the API:
 
 > The response should look like: `{airfare prediction: 18.6039}`
 
+</br>
 
 **To reproduce the API:**
+
 + Download the files in this repository
 
 + In your terminal, navigate to the **docker** folder directory and run `docker-compose up` to create your local server
@@ -43,4 +45,4 @@ Please follow the steps below to execute the API:
 `curl https://localserver:5000/`  
 The response should say: Server is up!
 
-+ Follow the steps above for `Accessing Flask API`
++ Follow the steps above for *Accessing Flask API*
