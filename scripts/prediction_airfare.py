@@ -9,8 +9,8 @@ from sklearn.linear_model import LinearRegression
 data = pd.read_csv("scripts/airfare_model.csv")
 
 # Remove non-continuous and outcome variable
-ytrain = data['prices_lowfare_usd']
-xtrain = data.drop(['prices_lowfare_usd'], axis=1)
+ytrain = data['prices_lowfare_USD']
+xtrain = data.drop(['prices_lowfare_USD'], axis=1)
 
 
 # Predictors
