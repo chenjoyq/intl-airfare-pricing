@@ -22,8 +22,8 @@ All data collected is in adherence to Norwegian Air Shuttle Terms of Use and int
 
 ## Predictive Linear Model Design
 Outcome:      `prices_lowfare_usd`  
-Predictive:  `orig_port_code` `dest_port_code` `flight_yr` `flight_mo` `flight_day` `days_to_flight` `stops` `stops_loc`
-
+Predictive:  `orig_port_code`* `dest_port_code`* `flight_yr` `flight_mo` `flight_day` `days_to_flight` `stops` `stops_loc`*
+*number coded categorical variable 
 
 ## EC2 Hosting
 The predictive model is hosted on Amazon's EC2 and accessible via a Flask API (instructions below)
