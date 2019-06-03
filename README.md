@@ -23,13 +23,14 @@ All data collected is in adherence to Norwegian Air Shuttle Terms of Use and int
 ## Predictive Linear Model Design
 Outcome:      `prices_lowfare_usd`  
 Predictive:  
-`orig_port_coded`* `dest_port_coded`* `days_to_flight` `depart_yr` `depart_mo` `depart_day` `duration_total_min` `stops`  
+`orig_port_coded`* `dest_port_coded`* `days_to_flight`* `depart_yr` `depart_mo` `depart_day` `duration_total_min` `stops`  
  
 </br>
 
 **NOTE:**  
 `orig_port_coded`* 0 = LAX | 1 = OAK | 2 = JFK  
 `dest_port_coded`* 0 = CPH | 1 = ARN | 2 = CDG | 3 = LGW | 4 = BCN
+`days_to_flight`* days from **June 2, 2019** to flight date
 
 </br>
 
