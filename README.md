@@ -34,7 +34,7 @@ The predictive model is hosted on Amazon's EC2 and accessible via a Flask API (i
 Please follow the steps below to execute the API:
 
 + To send a request to the API, use a `curl` command like the example below:  
-`curl -H "Content-Type: application/json" -X POST -d '{"orig_port_coded":"","dest_port_coded":"","days_to_flight":"","depart_yr":"","depart_mo":"","depart_day":"","duration_total_min":"","stops":""}' "http://ec2-54-202-68-148.us-west-2.compute.amazonaws.com:5000/predict_airfare"`  
+`curl -H "Content-Type: application/json" -X POST -d '{"orig_port_coded":"0","dest_port_coded":"0","days_to_flight":"10","depart_yr":"2019","depart_mo":"6","depart_day":"13","duration_total_min":"750","stops":"1"}' "http://ec2-54-202-68-148.us-west-2.compute.amazonaws.com:5000/predict_airfare"`  
 
 > The response should look like: `{airfare prediction: }`
 
