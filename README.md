@@ -22,7 +22,7 @@ All data collected is in adherence to Norwegian Air Shuttle Terms of Use and int
 
 ## Predictive Linear Model Design
 Outcome:      `prices_lowfare_usd`  
-Predictive:  `orig_port_code`* `dest_port_code`* `flight_yr` `flight_mo` `flight_day` `days_to_flight` `stops` `stops_loc`*
+Predictive:  `orig_port_code`* `dest_port_code`* `flight_yr` `flight_mo` `flight_day` `days_to_flight` `duration_total_min` `stops`  
 *number coded categorical variable 
 
 ## EC2 Hosting
@@ -33,7 +33,7 @@ The predictive model is hosted on Amazon's EC2 and accessible via a Flask API (i
 Please follow the steps below to execute the API:
 
 + To send a request to the API, use a `curl` command like the example below:  
-`curl -H "Content-Type: application/json" -X POST -d '{"":"","":"","":"","":"","":"","":"","":""}' "http://localhost:5000/predict_airfare"`  
+`curl -H "Content-Type: application/json" -X POST -d '{"orig_port_code":"","dest_port_code":"","flight_yr":"","flight_mo":"","flight_day":"","days_to_flight":"","duration_total_min":"","stops":""}' "http://localhost:5000/predict_airfare"`  
 
 > The response should look like: `{airfare prediction: }`
 
