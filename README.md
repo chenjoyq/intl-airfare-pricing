@@ -21,8 +21,8 @@ All data collected is in adherence to Norwegian Air Shuttle Terms of Use and int
 </br>
 
 ## Predictive Linear Model Design
-Outcome Variable:      `prices_lowfare_usd`  
-Predictive Variables:  
+Outcome:      `prices_lowfare_usd`  
+Predictive:  `orig_port_code` `dest_port_code` `flight_yr` `flight_mo` `flight_day` `days_to_flight` `stops` `stops_loc`
 
 
 ## EC2 Hosting
