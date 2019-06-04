@@ -6,6 +6,9 @@ Jupyter Notebooks containing code I used to webscrape data and then perform data
 `airfare_model.csv`  
 .csv containing aggregated, cleaned dataset to be used in model  
 
+`airfare_orig.csv`
+.csv containing uncleaned, raw data collected from scraper (used in exploratory notebook)
+
 `server.py`  
 Python script for server code to be accessed by Flask
 
