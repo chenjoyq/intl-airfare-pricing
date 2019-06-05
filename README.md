@@ -29,7 +29,7 @@ Predictive:
 
 **NOTE:**  
 `orig_port_coded`* 0 = JFK | 1 = LAX | 2 = OAK  
-`dest_port_coded`* 0 = ARN | 1 = BCN | 2 = CDG | 3 = CPH | 4 = LGW
+`dest_port_coded`* 0 = ARN | 1 = BCN | 2 = CDG | 3 = CPH | 4 = LGW  
 `days_to_flight`* days from **June 2, 2019** to flight date
 
 </br>
