@@ -1,7 +1,7 @@
 ## Project Scripts
 
 `code_webscraping.ipynb` `code_dataclean_exploratory.ipynb`  
-Jupyter Notebooks containing code I used to webscrape data and then perform data cleaning / exploratory analysis
+Jupyter Notebooks containing code used to webscrape data and then perform data cleaning / exploratory analysis
 
 `airfare_model.csv`  
 .csv containing aggregated, cleaned dataset to be used in model  
