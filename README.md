@@ -38,6 +38,7 @@ The predictive model is hosted on Amazon's EC2 and accessible via a Flask API (i
 
 
 ## Accessing Flask API  
+NOTE: API server is currently stopped, please contact if you wish to reproduce  
 
 Please follow the steps below to execute the API  
 *Linux required*
